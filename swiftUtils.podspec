@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'swiftUtils'
-  s.version          = '0.0.3'  
+  s.name             = 'swift-utils'
+  s.version          = '0.0.4'
   s.summary          = 'Utils library for iOS (Swift) developers.'
 
 # This description is used to generate tags and improve search results.
