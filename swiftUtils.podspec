@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'swiftUtils'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of swiftUtils.'
+  s.version          = '0.0.1'
+  s.tag              = '0.0.1'
+  s.summary          = 'Utils library for iOS (Swift) developers.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,10 +25,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ivanespitiac/swiftUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ivanespitiac' => 'ivanespitia19@gmail.com' }
+  s.author           = { 'ivanespitiac' => 'ivan.espitia@uptc.edu.co' }
   s.source           = { :git => 'https://github.com/ivanespitiac/swiftUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'swiftUtils/Classes/**/*'
